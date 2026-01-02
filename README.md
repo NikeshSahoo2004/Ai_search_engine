@@ -1,16 +1,43 @@
-# React + Vite
+# AI Search Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered search engine frontend built with **React** and **Vite** — a modern, fast, and optimized setup for building web apps.
 
-Currently, two official plugins are available:
+This project provides a user interface that can be paired with an AI backend API to perform semantic or smart search queries. Designed with Vite for quick development and optimized builds.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔ React + Vite for blazing fast development  
+✔ Clean UI for search interactions  
+✔ Configurable AI API endpoint  
+✔ Easy to extend and integrate with backend AI search models  
+✔ ESLint configured for code quality
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+- **React** – UI framework  
+- **Vite** – Build tool & dev server  
+- **JavaScript** – Core language  
+- **HTML & CSS** – Markup & styling  
+- **ESLint** – Linting rules
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+Ai_search_engine/
+├── public/                 # Public assets
+├── src/                    # React source code
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Application screens
+│   ├── App.jsx             # Root component
+│   └── main.jsx            # App entry point
+├── .env                    # Environment variables
+├── .gitignore              # Ignored files
+├── package.json            # Dependencies & scripts
+├── vite.config.js          # Vite configuration
+└── README.md               # Project documentation
